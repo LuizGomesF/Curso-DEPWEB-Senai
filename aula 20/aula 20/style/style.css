@@ -1,0 +1,68 @@
+body {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+}
+#menu {
+}
+#menu ul {
+  text-align: center;
+}
+#menu ul li {
+  display: inline;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+#menu ul li a {
+  background-color: green;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  border: 3px solid;
+  border-radius: 15px;
+  color: white;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+#menu ul li a:hover {
+  background-color: white;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  border: 3px solid green;
+  border-radius: 15px;
+  color: green;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.cabeca {
+  background-color: #831d1c;
+  padding-bottom: 50px;
+  border-radius: 50px 0px;
+}
+h1 {
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+.formulario {
+  margin: 70px;
+  border: solid 5px #831d1c;
+  border-radius: 10px;
+  width: 400px;
+  height: 700px;
+}
+form {
+  text-align: center;
+  color: green;
+  font-family: "Fira Sans", sans-serif;
+  padding: 25px;
+}
+.topicos {
+  text-decoration: underline;
+  font-size: 18px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0px;
+}
